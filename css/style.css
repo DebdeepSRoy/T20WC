@@ -1,0 +1,78 @@
+body{
+  font: 18px Calibri;
+  padding:0px;
+  margin:20px;
+  background-color:#ffffff;
+}
+  
+
+h1 {text-align: left; padding:10px;}
+p {text-align: left; padding:7px;}
+
+
+header{
+  background:#fff;
+  border-bottom:#0994DC 3px solid;
+}
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:20px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 20px 20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header nav{
+  float:right;
+}
+header .highlight, header .current a{
+  color:#0994DC;
+  font-weight:bold;
+}
+header a:hover{
+  color: #0994DC;
+}
+
+
+img {
+  padding: 4px
+}
+.galleryimg {
+  border-radius: 25px;
+  padding: 10px
+}
+
+
+table{
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center
+}
+table{
+  border: 1px solid #0994DC;
+  padding: 7px;
+  border-radius: 2px
+}
+th, td {
+  border: 0px solid #0994DC;
+  padding: 10px;
+}
+
+
+button {
+  height: 40px;
+  width: 100px;
+  text-decoration:none;
+  background-color: #0994DC;
+
+  border: 3px;
+  border-color: #0994DC;
+  border-radius: 20px;
+}
